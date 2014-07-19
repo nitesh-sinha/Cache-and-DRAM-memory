@@ -1,0 +1,16 @@
+rm *txt
+rm *out
+rm *pzip
+./sim --print_inst=0 --max_inst_count=0 --max_sim_count=0 --print_pipe_freq=1 --perfect_dcache=0 --dcache_latency=5 --dcache_size=64 --mem_latency_row_hit=10 --mem_latency_row_miss=20 --trace_file="case1.pzip" --output_file="case1.out" > case1-dump.txt
+./sim --print_inst=0 --max_inst_count=0 --max_sim_count=0 --print_pipe_freq=1 --perfect_dcache=0 --dcache_latency=5 --dcache_size=64 --mem_latency_row_hit=10 --mem_latency_row_miss=20 --trace_file="case2.pzip" --output_file="case2.out" > case2-dump.txt
+./sim --print_inst=0 --max_inst_count=0 --max_sim_count=0 --print_pipe_freq=1 --perfect_dcache=0 --dcache_latency=5 --dcache_size=64 --mem_latency_row_hit=10 --mem_latency_row_miss=20 --trace_file="case3.pzip" --output_file="case3.out" > case3-dump.txt
+./sim --print_inst=0 --max_inst_count=0 --max_sim_count=0 --print_pipe_freq=1 --perfect_dcache=0 --dcache_latency=5 --dcache_size=64 --mem_latency_row_hit=10 --mem_latency_row_miss=20 --trace_file="case4.pzip" --output_file="case4.out" > case4-dump.txt
+./sim --print_inst=0 --max_inst_count=0 --max_sim_count=0 --print_pipe_freq=1 --perfect_dcache=0 --dcache_latency=5 --dcache_size=64 --mem_latency_row_hit=10 --mem_latency_row_miss=20 --trace_file="case5.pzip" --output_file="case5.out" > case5-dump.txt
+./sim --print_inst=0 --max_inst_count=0 --max_sim_count=0 --print_pipe_freq=1 --perfect_dcache=0 --dcache_latency=5 --dcache_size=64 --mem_latency_row_hit=10 --mem_latency_row_miss=20 --trace_file="case6.pzip" --output_file="case6.out" > case6-dump.txt
+./sim --print_inst=0 --max_inst_count=0 --max_sim_count=0 --print_pipe_freq=1 --perfect_dcache=0 --dcache_latency=5 --dcache_size=64 --mem_latency_row_hit=10 --mem_latency_row_miss=20 --trace_file="case7.pzip" --output_file="case7.out" > case7-dump.txt
+./sim --print_inst=0 --max_inst_count=0 --max_sim_count=0 --print_pipe_freq=1 --perfect_dcache=0 --dcache_latency=5 --dcache_size=64 --mem_latency_row_hit=10 --mem_latency_row_miss=20 --trace_file="case8.pzip" --output_file="case8.out" > case8-dump.txt
+./sim --print_inst=0 --max_inst_count=0 --max_sim_count=0 --print_pipe_freq=1 --perfect_dcache=0 --dcache_latency=5 --dcache_size=64 --mem_latency_row_hit=10 --mem_latency_row_miss=20 --trace_file="case9.pzip" --output_file="case9.out" > case9-dump.txt
+./sim --print_inst=0 --max_inst_count=0 --max_sim_count=0 --print_pipe_freq=0 --perfect_dcache=0 --dcache_latency=5 --dcache_size=64 --mem_latency_row_hit=10 --mem_latency_row_miss=20 --trace_file="trace.pzip" --output_file="trace.out" > trace-dump.txt
+./sim --print_inst=0 --max_inst_count=0 --max_sim_count=0 --print_pipe_freq=0 --perfect_dcache=0 --dcache_latency=5 --dcache_size=64 --mem_latency_row_hit=10 --mem_latency_row_miss=20 --trace_file="trace2.pzip" --output_file="trace2.out" > trace2-dump.txt
+./sim --print_inst=0 --max_inst_count=0 --max_sim_count=0 --print_pipe_freq=0 --perfect_dcache=0 --dcache_latency=5 --dcache_size=512 --mem_latency_row_hit=100 --mem_latency_row_miss=200 --dcache_way=16 --trace_file="mem-trace.pzip" --output_file="mem.out" > mem-dump.txt
+./sim --print_inst=0 --max_inst_count=0 --max_sim_count=0 --print_pipe_freq=0 --perfect_dcache=0 --dcache_latency=5 --dcache_size=512 --mem_latency_row_hit=100 --mem_latency_row_miss=200 --dcache_way=1 --trace_file="non-mem-trace.pzip" --output_file="non-mem.out" > non-mem-dump.txt
